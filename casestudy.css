@@ -1,0 +1,51 @@
+body{
+    background-image: url(image/charity-giving-and-donation-poster-template-vector-20407288.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.container{
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 20px;
+    border: 1px solid black;
+   
+}
+
+input[type="text"], input[type="textarea"] , input[type="date"],select {
+margin : 8px 0;
+display: inline-block;    
+margin-top: 5px;
+margin-bottom: 20px;
+padding: 12px 20px;
+width: 100%;
+border-radius: 20px;
+border: none;  
+
+
+}
+
+
+
+input[type="radio"]{
+    margin: 0 10px 0 10px;
+    display:"block";
+    padding-bottom: 20px;
+
+}  
+
+input[type="submit"]:hover{
+    opacity: 0.8;
+}
+input[type="label"]:hover{
+    font-size: 25px
+}
+label{
+    display:block;
+}
+h2{
+    text-align: center;
+    color: dimgray;
+              
+}

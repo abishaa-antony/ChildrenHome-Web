@@ -1,0 +1,142 @@
+body{
+    background-image: url(image/1dcdb19b5c5a7c92eb28701df8903b3c.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.logo   {
+    width: 200px;
+    height:200px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    float: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.heading{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-top: 120px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: "Fantasy", "Papyrus";
+    color:darkred;    
+}
+.heading h1{
+     margin-bottom: 0px;
+     padding-bottom: 0px;
+}
+.sectionone{
+    width: 94%;
+    margin-top: 0px ;
+     padding-top: 0px;
+    overflow: hidden;
+    background-position: right;
+    
+    text-shadow: 5px 10px 30px darkslategrey;
+    text-align:center;
+}
+.sectionone h3{
+    margin-top: 0px;
+    margin-left: auto;
+    padding-top: 0px;
+    color:  darkslategrey;
+    font-size: 45px;    
+    font-family: "Cursive", "Lucida Handwriting";
+     margin-left: 400px;
+    margin-right: 0px;    
+}
+
+form{
+     border-radius: 35px;
+    margin-top: 20px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 50px;
+    padding: 50px;
+    border-style: none;  
+    box-shadow: 5px 10px 30px #c28f8f;   
+}
+
+.content{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px;
+   
+}
+.content h2{
+    font-size: 45px; 
+    font-family: "Times New Roman", Times, serif;
+    color:  darkslategrey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:50px; 
+    text-align: center;
+}
+.login label{
+
+margin-bottom: 20px;
+width: 100%;
+font-size: 30px; 
+font-family: "Times New Roman", Times, serif;
+color: darkslategray;
+
+}
+
+.login input[type="text"], .login input[type="password"]{
+margin-top: 5px;
+margin-bottom: 20px;
+padding: 12px;
+width: 100%;
+border-radius: 20px;
+border: none;  
+
+}
+#remember{
+   color: darkslategrey; 
+    font-weight: 300;
+   font-size: 20px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.login input[type="submit"]{
+margin-top: 20px;
+background-color: darkslategrey;
+color: #ffffff;
+font-size: 20px;
+padding : 10px: 15px;
+border: none;
+width: 70%;
+padding: 8px;
+margin-left: 65px;
+margin-bottom: 20px;
+border-radius: 30px;
+}
+.login input[type="button"]{
+background-color: darkslategrey;\
+margin-top: 20px;
+color: #ffffff;
+font-size: 20px;
+padding : 10px: 15px;
+border-radius: 30px;
+width: 50%;
+padding: 8px;
+border: none;
+}
+.login input[type="submit"]:hover{
+    opacity: 0.8;
+}
+.login label :hover{
+    font-size: 25px
+}
+.login input[type="button"]:hover{
+  opacity: 0.8;
+}
